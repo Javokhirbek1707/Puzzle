@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: b7ac3d8f02d5b184d93be317a2916bdd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1533
+        width: 351
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51c9c57ffa73c546862c305d1d397db
+      internalID: -153000994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_1
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1533
+        width: 325
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a141c87fc82bb1f40a4212f5c3bc3ae9
+      internalID: -601203310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_2
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1434
+        width: 553
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a34c7ab99d7fda4a959d09c00a47d6d
+      internalID: 557885497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_3
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1533
+        width: 460
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7536ac660eed6f34f8fab6938f0f2ac7
+      internalID: -1692143240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1031
+        width: 434
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ced4bfc4283444192b5047a76524cd
+      internalID: 496629988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_5
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1010
+        width: 324
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6def8b7474bbe0d4d9d561f59b8dbb92
+      internalID: -1460567999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_6
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1125
+        width: 178
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06d3a9296fe6614c874f7321427a7d9
+      internalID: -869408954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_7
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1010
+        width: 207
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c0610e2cd12d74f92145ec609d30f3
+      internalID: 917046631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_8
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1010
+        width: 392
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601c25a4eb6bdc44cafd483ef998fe47
+      internalID: -1551005325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 511
+        width: 362
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8b744b77ac1d2428921bf7001098d0
+      internalID: 385584963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_10
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 511
+        width: 419
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74acb14cd87867f4895ffb9a8a40a2da
+      internalID: 1438651366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_11
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 511
+        width: 383
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40aebfa7c1917b41b3982b8df991fbf
+      internalID: 2043928397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_12
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 511
+        width: 282
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27de68dd5bf31984ea9c45bc64c995c7
+      internalID: 1876996991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_13
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 75
+        width: 342
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf26f29ddb3305a4caef8d06550d5340
+      internalID: 404088968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_14
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 75
+        width: 351
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3563871896e1847a6449d29775fa0e
+      internalID: -1765191018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_15
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 74
+        width: 311
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1757284302063114b89e388bcaecb649
+      internalID: -1679278234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_16
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 75
+        width: 445
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bfd9fc96f130249a07b387533a0ca5
+      internalID: 1144015898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_0: -153000994
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_1: -601203310
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_10: 1438651366
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_11: 2043928397
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_12: 1876996991
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_13: 404088968
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_14: -1765191018
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_15: -1679278234
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_16: 1144015898
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_2: 557885497
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_3: -1692143240
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_4: 496629988
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_5: -1460567999
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_6: -869408954
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_7: 917046631
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_8: -1551005325
+      fruits-isolated-colored-set-with-fruit-berries-various-colors-sizes_9: 385584963
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

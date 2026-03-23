@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: 0ae29b158366a8b4e89b58b83d16dc28
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 536
+        width: 398
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f685187df52ab90459faa078d51d18f6
+      internalID: 445295832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_1
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 506
+        width: 288
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4ef2918d8b4fb48903a38a7f0ba8ad
+      internalID: -1251878007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_2
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 484
+        width: 634
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6bc28445dfdd84c8977dc1499895e3
+      internalID: -1608534972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_3
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 506
+        width: 371
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa68c7ff6b906a84b88711566ddcb8bf
+      internalID: 1336293653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 342
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f186a2b72dbfd0408a612e09e9a0f4e
+      internalID: 658003737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 342
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4a5574b6ff7c74b9151ea591faab98
+      internalID: 2140686119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 183
+        width: 138
+        height: 141
+      alignment: 9
+      pivot: {x: 0.4913363, y: 0.48378113}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d5c662af106e744887fe45fc50ed32
+      internalID: 333733024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_7
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 253
+        width: 776
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a425ac309ce30a24bb91c7a19b682e33
+      internalID: -580466787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 201
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c99acbbc8941334aa96bad3356c2c00
+      internalID: 1803708240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 207
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9749b9a03adab204fb90fd65f932ac2e
+      internalID: 1702069282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_10
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 73
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d913425c533fbe6449b6e6803bd258b0
+      internalID: 162518811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_11
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 73
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4c15ba3b40d37479963e7a03c76c80
+      internalID: -540428284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_12
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 102
+        width: 251
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fcca1febe13754e9639866f4da65a6
+      internalID: 112373946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_13
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 102
+        width: 251
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c60f392aa4a4542905edcccd92a11e
+      internalID: 1977363199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_14
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 100
+        width: 251
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9edaf46fe438e449e83ca455f62270
+      internalID: 996780358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a0aff6f1606fd634bbccaddcc2f49a8e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_0: 445295832
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_1: -1251878007
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_10: 162518811
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_11: -540428284
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_12: 112373946
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_13: 1977363199
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_14: 996780358
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_2: -1608534972
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_3: 1336293653
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_4: 658003737
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_5: 2140686119
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_6: 333733024
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_7: -580466787
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_8: 1803708240
+      set-game-frames-bars-menu-buttons-cartoon-interface-elements-empty-borders-with-banners-ui-gui-design-blue-red-green-scales-play-pause-keys-user-panel-settings-isolated-vector-kit_9: 1702069282
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
