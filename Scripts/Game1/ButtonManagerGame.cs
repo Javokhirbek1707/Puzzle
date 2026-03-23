@@ -66,6 +66,8 @@ public class ButtonManagerGame : MonoBehaviour
 
     public void Quit()
     {
+        Time.timeScale = 1;
+        GameManager.Instance.gamesMenuPanel = "Games";
         SceneManager.LoadScene(0);
     }
 }

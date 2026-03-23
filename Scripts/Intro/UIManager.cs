@@ -24,10 +24,22 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-        ShowMainMenu();
+        if (GameManager.Instance != null && !string.IsNullOrEmpty(GameManager.Instance.desiredMenuPanel))
+        {
+            if (GameManager.Instance.gamesMenuPanel == "Games")
+            {
+                ShowGames();
+            }
+            GameManager.Instance.gamesMenuPanel = "";
+        }
+        else
+        {
+            ShowMainMenu();
+        }
     }
 
-    void DisableAll()
+
+    public void DisableAll()
     {
         _mainMenu.SetActive(false);
         _loginMenu.SetActive(false);

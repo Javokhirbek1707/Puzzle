@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     private string _currentProfile;
     private int _profileCount;
 
+    public string gamesMenuPanel = "";
+
     private void Awake()
     {
         if (Instance == null)
