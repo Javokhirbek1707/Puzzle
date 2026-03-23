@@ -24,7 +24,7 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-        if (GameManager.Instance != null && !string.IsNullOrEmpty(GameManager.Instance.desiredMenuPanel))
+        if (GameManager.Instance != null && !string.IsNullOrEmpty(GameManager.Instance.gamesMenuPanel))
         {
             if (GameManager.Instance.gamesMenuPanel == "Games")
             {
