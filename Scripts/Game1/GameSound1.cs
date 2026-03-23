@@ -6,25 +6,27 @@ using UnityEngine.UI;
 
 public class GameSound1 : MonoBehaviour
 {
-    [SerializeField] private AudioMixer audioMixer;
-    [SerializeField] private Slider volumeSlider;
+    [SerializeField] 
+    private AudioMixer _audioMixer;
+    [SerializeField] 
+    private Slider _volumeSlider;
 
     private void Start()
     {
         float savedVolume = PlayerPrefs.GetFloat("Volume", 1f);
 
-        volumeSlider.SetValueWithoutNotify(savedVolume);
+        _volumeSlider.SetValueWithoutNotify(savedVolume);
 
         ApplyVolume(savedVolume);
 
-        volumeSlider.onValueChanged.AddListener(ApplyVolume);
+        _volumeSlider.onValueChanged.AddListener(ApplyVolume);
     }
 
     private void ApplyVolume(float value)
     {
         float db = value <= 0.001f ? -80f : Mathf.Log10(value) * 20f;
 
-        audioMixer.SetFloat("Game01", db);
+        _audioMixer.SetFloat("Game01", db);
 
         PlayerPrefs.SetFloat("Volume", value);
     }

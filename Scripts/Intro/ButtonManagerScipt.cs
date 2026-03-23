@@ -7,50 +7,54 @@ using UnityEngine.SceneManagement;
 public class ButtonManagerScipt : MonoBehaviour
 {
     [Header("Create")]
-    [SerializeField] private TMP_InputField createUsername;
-    [SerializeField] private TMP_Text createDebug;
+    [SerializeField] 
+    private TMP_InputField _createUsername;
+    [SerializeField] 
+    private TMP_Text _createDebug;
 
     [Header("Login")]
-    [SerializeField] private TMP_InputField loginUsername;
-    [SerializeField] private TMP_Text loginDebug;
+    [SerializeField]
+    private TMP_InputField _loginUsername;
+    [SerializeField] 
+    private TMP_Text _loginDebug;
 
     private const string USERNAME_KEY = "USERNAME";
 
     public void CreateAccaunt()
     {
-        string username = createUsername.text;
+        string username = _createUsername.text;
 
         if (string.IsNullOrEmpty(username) || username.Length < 3)
         {
-            createDebug.text = "Username must be at least 3 characters!";
+            _createDebug.text = "Username must be at least 3 characters!";
             return;
         }
 
         if (GameManager.Instance.ProfileExists(username))
         {
-            createDebug.text = "Profile already exists!";
+            _createDebug.text = "Profile already exists!";
             return;
         }
 
         GameManager.Instance.CreateProfile(username);
 
-        createDebug.text = "Account created!";
+        _createDebug.text = "Account created!";
         UIManager.Instance.ShowLogin();
     }
 
     public void LoginAccaunt()
     {
-        string inputUsername = loginUsername.text;
+        string inputUsername = _loginUsername.text;
 
         if (!GameManager.Instance.ProfileExists(inputUsername))
         {
-            loginDebug.text = "Profile not found!";
+            _loginDebug.text = "Profile not found!";
             return;
         }
 
         GameManager.Instance.LoadProfile(inputUsername);
 
-        loginDebug.text = "Logged in!";
+        _loginDebug.text = "Logged in!";
         UIManager.Instance.ShowGames();
     }
 

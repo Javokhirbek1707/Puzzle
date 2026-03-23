@@ -7,20 +7,28 @@ using UnityEngine.UI;
 public class MathGame : MonoBehaviour
 {
     [Header("InputFieilds")]
-    [SerializeField] private TMP_Text _number1Text, _number2Text, _total;
-    [SerializeField] private TMP_InputField _input;
+    [SerializeField]
+    private TMP_Text _number1Text, _number2Text, _total;
+    [SerializeField] 
+    private TMP_InputField _input;
     private int _number1, _number2, _correctAnswer, _playerAnswer;
 
     [Header("Text")]
-    [SerializeField] private TMP_Text _scoreText, _debugText;
-    [SerializeField] private int _maxAnswers;
-    [SerializeField] private Button _nextAnswerButton, _checkAnswerButton;
+    [SerializeField]
+    private TMP_Text _scoreText, _debugText;
+    [SerializeField] 
+    private int _maxAnswers;
+    [SerializeField] 
+    private Button _nextAnswerButton, _checkAnswerButton;
     private int _amountOfQuestions, _score;
 
     [Header("Score")]
-    [SerializeField] private GameObject _gameOverPage;
-    [SerializeField] private int _finalScore, _highscore;
-    [SerializeField] private TMP_Text _finalScoreText, _highscoreText;
+    [SerializeField] 
+    private GameObject _gameOverPage;
+    [SerializeField] 
+    private int _finalScore, _highscore;
+    [SerializeField] 
+    private TMP_Text _finalScoreText, _highscoreText;
 
 
     void Start()

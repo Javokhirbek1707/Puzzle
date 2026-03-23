@@ -6,42 +6,10 @@ using UnityEngine.EventSystems;
 
 public class Item : MonoBehaviour, IPointerDownHandler
 {
-
-    /*[SerializeField] private int _itemID;
-    [SerializeField] private Image _coverImage;
-    [SerializeField] private MatchItem _itemMatch;
-
-    void Start()
-    {
-        _itemMatch = GameObject.Find("Game_Manager").GetComponent<MatchItem>();
-        if (_itemMatch == null)
-            Debug.LogError("MatchItem is null");
-    }
-
-    public int ReturnItemID()
-    {
-        return _itemID;
-    }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        _itemMatch.Match(this.gameObject);
-        UncoverItem();
-    }
-
-    private void UncoverItem()
-    {
-        _coverImage.gameObject.SetActive(false);
-    }
-
-    public void CoverItem(bool matched)
-    {
-        if (matched == false)
-            _coverImage.gameObject.SetActive(true);
-    }*/
-
-    [SerializeField] private int _itemID;
-    [SerializeField] private Image _coverImage;
+    [SerializeField] 
+    private int _itemID;
+    [SerializeField] 
+    private Image _coverImage;
     private MatchItem _itemMatch;
 
     void Start()

@@ -5,12 +5,15 @@ using UnityEngine;
 
 public class ItemSpawn : MonoBehaviour
 {
-    [SerializeField] private GameObject[] _cardsToPickFrom;
+    [SerializeField] 
+    private GameObject[] _cardsToPickFrom;
     private List<GameObject> _spawnItem;
     private List<GameObject> _cards;
     private List<GameObject> _shuffledCards = new List<GameObject>();
-    [SerializeField] private int _numberOfPairs;
-    [SerializeField] private bool _isRepeated;
+    [SerializeField] 
+    private int _numberOfPairs;
+    [SerializeField] 
+    private bool _isRepeated;
 
     void Start()
     {

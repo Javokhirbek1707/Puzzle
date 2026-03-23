@@ -8,20 +8,27 @@ public class BirdvsAnimalManager : MonoBehaviour
     public static BirdvsAnimalManager Instance;
 
     [Header("Timer")]
-    [SerializeField] private TMP_Text _timerText;
+    [SerializeField] 
+    private TMP_Text _timerText;
     private float _seconds;
     private bool _isTimerActive;
 
     [Header("Win Screen")]
-    [SerializeField] private TMP_Text _finalTimeText;
-    [SerializeField] private TMP_Text _quickestTimeText;
-    [SerializeField] private GameObject _winScreen;
-    [SerializeField] private GameObject _animals;
-    [SerializeField] private GameObject _birds;
+    [SerializeField] 
+    private TMP_Text _finalTimeText;
+    [SerializeField] 
+    private TMP_Text _quickestTimeText;
+    [SerializeField] 
+    private GameObject _winScreen;
+    [SerializeField] 
+    private GameObject _animals;
+    [SerializeField] 
+    private GameObject _birds;
 
     private float _fastestTime;
 
-    [SerializeField] private int _totalCorrectDrops = 15;
+    [SerializeField] 
+    private int _totalCorrectDrops = 15;
     private int _currentCorrectDrops;
 
     private bool _openedWinScene;

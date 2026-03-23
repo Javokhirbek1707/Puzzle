@@ -1602,10 +1602,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b2129388feefb048b2ebeb8f1562fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: fc2adc5ba78dd1a469ce54dcef858666, type: 2}
-  volumeSlider: {fileID: 1138186630}
-  blackOverlay: {fileID: 805253660}
-  brightnessSlider: {fileID: 1906040006}
+  _audioMixer: {fileID: 24100000, guid: fc2adc5ba78dd1a469ce54dcef858666, type: 2}
+  _volumeSlider: {fileID: 1138186630}
+  _blackOverlay: {fileID: 805253660}
+  _brightnessSlider: {fileID: 1906040006}
 --- !u!4 &324150587
 Transform:
   m_ObjectHideFlags: 0
@@ -1768,10 +1768,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3de284d332b643e4cbedbb4af07da47e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  createUsername: {fileID: 564416586}
-  createDebug: {fileID: 916010004}
-  loginUsername: {fileID: 1120704780}
-  loginDebug: {fileID: 814215386}
+  _createUsername: {fileID: 564416586}
+  _createDebug: {fileID: 916010004}
+  _loginUsername: {fileID: 1120704780}
+  _loginDebug: {fileID: 814215386}
 --- !u!4 &334991144
 Transform:
   m_ObjectHideFlags: 0

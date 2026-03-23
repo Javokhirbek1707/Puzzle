@@ -6,11 +6,16 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
 
-    [SerializeField] private GameObject _mainMenu;
-    [SerializeField] private GameObject _loginMenu;
-    [SerializeField] private GameObject _createMenu;
-    [SerializeField] private GameObject _optionsMenu;
-    [SerializeField] private GameObject _gamesMenu;
+    [SerializeField] 
+    private GameObject _mainMenu;
+    [SerializeField] 
+    private GameObject _loginMenu;
+    [SerializeField] 
+    private GameObject _createMenu;
+    [SerializeField] 
+    private GameObject _optionsMenu;
+    [SerializeField] 
+    private GameObject _gamesMenu;
 
     private void Awake()
     {

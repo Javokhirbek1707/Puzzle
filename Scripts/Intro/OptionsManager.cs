@@ -6,41 +6,45 @@ using UnityEngine.UI;
 public class OptionsManager : MonoBehaviour
 {
     [Header("Audio")]
-    [SerializeField] private AudioMixer audioMixer;
-    [SerializeField] private Slider volumeSlider;
+    [SerializeField]
+    private AudioMixer _audioMixer;
+    [SerializeField] 
+    private Slider _volumeSlider;
 
     [Header("Brightness")]
-    [SerializeField] private Image blackOverlay;
-    [SerializeField] private Slider brightnessSlider;
+    [SerializeField] 
+    private Image _blackOverlay;
+    [SerializeField] 
+    private Slider _brightnessSlider;
 
     private void Start()
     {
         float volume = PlayerPrefs.GetFloat("Volume", 1f);
         float brightness = PlayerPrefs.GetFloat("Brightness", 1f);
 
-        volumeSlider.value = volume;
-        brightnessSlider.value = brightness;
+        _volumeSlider.value = volume;
+        _brightnessSlider.value = brightness;
 
         ApplyVolume(volume);
         ApplyBrightness(brightness);
 
-        volumeSlider.onValueChanged.AddListener(ApplyVolume);
-        brightnessSlider.onValueChanged.AddListener(ApplyBrightness);
+        _volumeSlider.onValueChanged.AddListener(ApplyVolume);
+        _brightnessSlider.onValueChanged.AddListener(ApplyBrightness);
     }
 
     private void ApplyVolume(float value)
     {
         float db = value <= 0.001f ? -80f : Mathf.Log10(value) * 20f;
-        audioMixer.SetFloat("BG_Music", db);
+        _audioMixer.SetFloat("BG_Music", db);
 
         PlayerPrefs.SetFloat("Volume", value);
     }
 
     private void ApplyBrightness(float value)
     {
-        Color c = blackOverlay.color;
+        Color c = _blackOverlay.color;
         c.a = 1f - value;
-        blackOverlay.color = c;
+        _blackOverlay.color = c;
 
         PlayerPrefs.SetFloat("Brightness", value);
     }

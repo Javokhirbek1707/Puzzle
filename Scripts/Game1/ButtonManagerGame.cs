@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManagerGame : MonoBehaviour
 {
-    [SerializeField]private GameObject _sound;
+    [SerializeField]
+    private GameObject _sound;
     private bool _menuActive = false;
 
     private void Start()
